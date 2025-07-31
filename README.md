@@ -1,5 +1,7 @@
 # LMSFinal
+## 🔄 System Workflow
 
+```mermaid
 graph TD
     A[Start] --> B[Send API Request to /modules endpoint]
     B --> C[Extract module_id for each course module]
@@ -41,3 +43,4 @@ graph TD
     ZA --> ZB[List external links found]
     ZB --> ZC[Log errors and skipped resources]
     ZC --> ZD[End]
+```
